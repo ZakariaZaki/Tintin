@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Contact form</title>
+       <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+
+      <link rel="stylesheet" href="css/contact.css">
+
+
+</head>
+
+<body>
+  <div class="container mdr">
+    <div class="navz">
+    <ul class="nav navi justify-content-center">
+  <li class="nav-item">
+    <a class="nav-link" href="presentation.html">Presentation</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="biography.html">Bio</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link " href="shop.html">Shop</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="gallery.html">Gallery</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link activio" href="contact.html">Contact</a>
+  </li>
+</ul>
+</div>
+
+  <p class="contact-no-js message">You must have Javascript enabled to use this contact form.</p>
+<p class="contact-submitted hidden">Your message was sent.</p>
+<p class="contact-error hidden">There was an error sending the message.</p>
+
+<form class="contact-form hidden" action="#" method="post" accept-charset="UTF-8">
+  <label for="edit-name">Name</label>
+  <input type="text" id="edit-name" name="name" placeholder="Your name" tabindex="1" required autofocus><span></span>
+  <label for="edit-mail">E-mail address</label>
+  <input type="email" id="edit-mail" name="email" placeholder="Your e-mail address" tabindex="2" required><span></span>
+  <input type="text" id="edit-url" class="hidden" name="url" placeholder="Skip if you are a human">
+  <label for="edit-subject">Subject</label>
+  <input type="text" id="edit-subject" name="subject" placeholder="A short subject" tabindex="3" required><span></span>
+  <label for="edit-message">Message</label>
+  <textarea id="edit-message" name="message" rows="5" placeholder="The messages goes here…" tabindex="4" required></textarea><span></span>
+  <button type="submit" name="submit" class="form-submit" disabled>Send message</button>
+</form>
+
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+
+
+    <script  src="js/contact.js"></script>
+
+
+
+
+</body>
+
+</html>
