@@ -1,3 +1,3 @@
 THE TINTIN WEBSITE
 MISSING THE BIOGRAPHY FOR NOW
-(click)[www.google.be]
+[Click](https://aronddadi.github.io/Tintin/presentation.html)
